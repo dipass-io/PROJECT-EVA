@@ -11,6 +11,9 @@ import { HowwqeworkComponent } from './howwqework/howwqework.component';
 import { Page404Component } from './page404/page404.component';
 import { PhotosComponent } from './photos/photos.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { DesignComponent } from './pages/design/design.component';
+import { ContactComponent } from './contact/contact.component';
+import { WebappsComponent } from './pages/webapps/webapps.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -25,6 +28,9 @@ const routes: Routes = [
   { path: 'photos', component: PhotosComponent },
   { path: 'pricing', component: PricingComponent },
   { path: 'page404', component: Page404Component },
+  { path: 'pages/design', component: DesignComponent },
+  { path: 'contact', component: ContactComponent },
+  { path: 'pages/webapps', component: WebappsComponent },
   
 ];
 
