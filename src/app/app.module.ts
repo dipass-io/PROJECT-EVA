@@ -28,6 +28,8 @@ import { TeaserComponent } from './teaser/teaser.component';
 import { IntegrationsComponent } from './integrations/integrations.component';
 import { HowdoesworkComponent } from './howdoeswork/howdoeswork.component';
 import { ContactComponent } from './contact/contact.component';
+import { DesignComponent } from './pages/design/design.component';
+import { WebappsComponent } from './pages/webapps/webapps.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +50,9 @@ import { ContactComponent } from './contact/contact.component';
     TeaserComponent,
     IntegrationsComponent,
     HowdoesworkComponent,
-    ContactComponent
+    ContactComponent,
+    DesignComponent,
+    WebappsComponent
   ],
   imports: [
     BrowserModule,
