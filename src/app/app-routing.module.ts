@@ -15,6 +15,7 @@ import { DesignComponent } from './pages/design/design.component';
 import { ContactComponent } from './contact/contact.component';
 import { WebappsComponent } from './pages/webapps/webapps.component';
 
+
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'pages/design', component: DesignComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'pages/webapps', component: WebappsComponent },
+  { path: 'pages/design', component: DesignComponent },
   
 ];
 
