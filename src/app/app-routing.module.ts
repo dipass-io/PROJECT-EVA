@@ -14,6 +14,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { DesignComponent } from './pages/design/design.component';
 import { ContactComponent } from './contact/contact.component';
 import { WebappsComponent } from './pages/webapps/webapps.component';
+import { TechmanagerComponent } from './pages/jobs/techmanager/techmanager.component';
 
 
 const routes: Routes = [
@@ -32,7 +33,8 @@ const routes: Routes = [
   { path: 'pages/design', component: DesignComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'pages/webapps', component: WebappsComponent },
-  { path: 'pages/design', component: DesignComponent },
+  { path: 'pages/jobs/techmanager', component: TechmanagerComponent },
+
   
 ];
 

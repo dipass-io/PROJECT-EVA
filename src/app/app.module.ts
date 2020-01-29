@@ -30,6 +30,7 @@ import { HowdoesworkComponent } from './howdoeswork/howdoeswork.component';
 import { ContactComponent } from './contact/contact.component';
 import { DesignComponent } from './pages/design/design.component';
 import { WebappsComponent } from './pages/webapps/webapps.component';
+import { TechmanagerComponent } from './pages/jobs/techmanager/techmanager.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { WebappsComponent } from './pages/webapps/webapps.component';
     HowdoesworkComponent,
     ContactComponent,
     DesignComponent,
-    WebappsComponent
+    WebappsComponent,
+    TechmanagerComponent
   ],
   imports: [
     BrowserModule,
