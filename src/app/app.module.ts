@@ -31,6 +31,17 @@ import { ContactComponent } from './contact/contact.component';
 import { DesignComponent } from './pages/design/design.component';
 import { WebappsComponent } from './pages/webapps/webapps.component';
 import { TechmanagerComponent } from './pages/jobs/techmanager/techmanager.component';
+import { CustomizeComponent } from './pages/customize/customize.component';
+import { SeoComponent } from './pages/seo/seo.component';
+import { ApisComponent } from './pages/apis/apis.component';
+import { AppdevComponent } from './pages/jobs/appdev/appdev.component';
+import { DesigndevComponent } from './pages/jobs/designdev/designdev.component';
+import { JuniordevComponent } from './pages/jobs/juniordev/juniordev.component';
+import { FullstackdevComponent } from './pages/jobs/fullstackdev/fullstackdev.component';
+import { ContactpComponent } from './pages/contactp/contactp.component';
+import { DocspComponent } from './pages/docsp/docsp.component';
+import { FeaturespComponent } from './pages/featuresp/featuresp.component';
+import { AboutpComponent } from './pages/aboutp/aboutp.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +65,18 @@ import { TechmanagerComponent } from './pages/jobs/techmanager/techmanager.compo
     ContactComponent,
     DesignComponent,
     WebappsComponent,
-    TechmanagerComponent
+    TechmanagerComponent,
+    CustomizeComponent,
+    SeoComponent,
+    ApisComponent,
+    AppdevComponent,
+    DesigndevComponent,
+    JuniordevComponent,
+    FullstackdevComponent,
+    ContactpComponent,
+    DocspComponent,
+    FeaturespComponent,
+    AboutpComponent
   ],
   imports: [
     BrowserModule,
