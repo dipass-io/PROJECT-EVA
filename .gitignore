@@ -45,7 +45,19 @@ testem.log
 .DS_Store
 Thumbs.db
 
+<<<<<<< HEAD
 #Firebase
     .firebaserc
         firebase.json
         public/
+=======
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+>>>>>>> 48a953f5a74956b62689433131c9148681f1b38c
